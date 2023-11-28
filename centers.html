@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+         crossorigin="anonymous">
+        <title>Dr.gymantics</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Vina Sans' rel='stylesheet'>
+    <style>
+        body {
+            font-family: 'Indie Flower';
+        }
+        </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo"><a href="index.html"><img src="logo.png" alt=""></a></div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="centers.html">Centers</a></li>
+                <li><a href="trainers.html">Trainers</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="contact.html">Contactus</a></li>
+              </ul>
+        </div>
+
+        <div class="buttons">
+            <button class="btn1">Login</button>
+            <button class="btn2">Signup</button>
+        </div>
+    </div>
+   
+        <div class="maincontent2" >
+            <h3 style="font-family: Vina Sans; font-size: 70px; color: white;">where you can find us?</h3>
+        </div>
+        <center>
+            <img src="earth2.jpeg" alt="" width="600px" height="250px">
+
+<p class='center'style="
+font-family: Vina Sans; font-size: 25px; color: white;">Embark on a transformative fitness journey at our conveniently located gym branches, designed to cater to every fitness aspiration. Whether you're a seasoned athlete or a fitness novice, our comprehensive facilities and expert guidance will empower you to achieve your fitness goals.
+
+    Immerse yourself in a motivating atmosphere, where cutting-edge equipment, invigorating group classes, and personalized training programs await. Our experienced trainers are passionate about helping you reach your full potential, providing tailored guidance and support every step of the way.
+   
+    Discover a haven of wellness, where physical fitness seamlessly blends with holistic well-being. Our rejuvenating spa treatments and relaxation lounges offer the perfect respite to unwind and recharge.
+   </p>
+</center>
+   <center>
+   <br>
+    <div class="center2">
+        <form action="">
+            <label for="">Choose country : </label>
+            <select>
+                <option ></option>
+                <option >Saudi Arabia</option>
+                <option >United Arab Emirts</option>
+                <option >Kowait</option>
+                <option >Qatar</option>
+                <option >Bahrain</option>
+                <option >Oman</option>
+                <option >Australia</option>
+                <option >Canada</option>
+                <option >China</option>
+                <option >Germany</option>
+            </select><br>
+            <label for="">Choose Province : </label>
+            <select>
+                <option ></option>
+                <option >Riyadh Province</option>
+                <option >Makkah Province</option>
+                <option >Eastern Province</option>
+                <option >Madinah Province.</option>
+                <option >Al Baha Province</option>
+                <option >Al Jawf Province</option>
+                <option >Northern Borders Province.</option>
+                <option >Qassim Province.</option>
+                <option >Ha'il Province</option>
+                <option >Tabuk Province</option>
+                <option >'Aseer Province</option>
+                <option >Jizan Province</option>
+                <option >Najran Province</option>
+            </select><br>
+            <label for="">Choose City : </label>
+            <select >
+                <option ></option>
+                <option >Tabuk</option>
+                <option >Tayma</option>
+                <option >Duba</option>
+                <option >Al wajh</option>
+                <option >Haql</option>
+                <option >Umluj</option>
+                <option >Al-Bad'</option>
+                <option >Neom</option>
+                <option >Amaala</option>
+            </select><br>
+            <input class="btn1" onclick="display()" type="button" value="SEARCH"><br><br>
+        </form>
+        <div class="cards" id="cards" >
+            <div class="card1">
+                <img src="gymbuilding1.jpg"  style="width: 60%;" >
+                <div class="container">
+                  <h4><b>Al-massif</b></h4> 
+                  <p>6th street behind tabuk university</p> 
+                </div>
+              </div>
+            <div class="card2"><img src="gymbuilding2.jpg" style="width: 60%;" >
+                <div class="container">
+                  <h4><b>Al-Worood</b></h4> 
+                  <p>6th street behind tabuk university</p> 
+                </div>
+            </div>
+            <div class="card3"><img src="gymbuilding3.jpg"  style="width: 60%;" >
+                <div class="container">
+                  <h4><b>Al-Morog</b></h4> 
+                  <p>6th street behind tabuk university</p> 
+                </div></div>
+        </div>
+    </div>
+   </center>
+   
+
+   <script>
+    function display() {
+  var x = document.getElementById("cards");
+  if (x.style.display === "none") {
+    x.style.display = "flex";
+  } else {
+    x.style.display = "none";
+   
+  }
+}
+   </script>
+
+</body>
+</html>

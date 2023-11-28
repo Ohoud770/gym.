@@ -1,0 +1,445 @@
+body {
+    background-color: #F2EFDC;
+    width: 100%;
+}
+@media (max-width : 960px){
+    span {
+        position: relative;
+        left: -30px;
+       display: block;
+       background-color: black;
+        width: 250px;
+        margin-bottom: 0%;
+        padding: 0%;
+    }
+    
+    .img1 { 
+        transform: rotate(20deg);
+    }
+    td {
+        width: 10%;
+    }
+    .center2 {
+        height:  1500px;
+    }
+    .cards {
+       display: block;
+    }
+    .center3 {
+        flex-direction: column;
+    }
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div img {
+    width: 250px;
+    margin: 25px;
+    padding: 0;
+    
+}
+li {
+  width: 40%;
+    position: relative;
+    top: 20px;
+    left: -40%;
+   padding: 5px;
+   display: block;
+   
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: space-evenly;
+  }
+li a {
+    text-decoration: none;
+    color: #FE8A49;
+   
+  }
+  li a:hover {
+    text-decoration: underline;
+  }
+.buttons {
+   position: relative;
+   left: -5%;
+   top: 25px;
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+}
+.btn1 {
+   
+  width: 80px;
+  height: 30px;
+  margin: 3px;
+  background-color: #FE8A49;
+  border-radius: 15%;
+  color: #F2EFDC;
+}
+.btn2 {
+    width: 80px;
+    height: 30px;
+    margin: 3px;
+    background-color: #F2EFDC;
+    border-radius: 4px;
+    border-color: #FE8A49;
+    color: #FE8A49;
+}
+
+.maincontent {
+   
+    width: 500px;
+    height: 400px;
+    position: relative;
+    top: 40px;
+    left:90px;
+    margin: 0;
+
+}
+.mainimage {
+   
+    width: 500px;
+    height: 400px;
+    position: relative;
+    top: 40px;
+    left:90px;
+    margin: 0;
+}
+.mainpage {
+    display: flex;
+    flex-direction: row;
+    background-image : url(main\ photo.png);
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position:right 15% bottom 45%;
+}
+.maincontent div {
+    position: relative;
+    top:-90px;
+    left:10px;
+    -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
+span {
+    background-color: #FE8A49;
+    border-radius: 20px;
+    margin: 30px;
+}
+.start {
+    position: relative;
+    top: -250px;
+    left: 100px;
+    width: 100px;
+    height: 40px;
+   
+    background-color: black;
+    color: white;
+}
+.play {
+    position: relative;
+    top: -237px;
+    left: 100px;
+    width: 40px;
+    height: 40px;
+    background-color: #F2EFDC;
+    background-image : url(play-button.png);
+    background-size: contain;
+    background-position: center;
+    
+}
+#vid {
+   position: relative;
+   top: -400px;
+  display: none;
+}
+video {
+    width:80%
+    
+}
+video + button.close {
+    font-size: 10px;   
+    display: block;
+  }
+  video.hide {
+    display: none;
+  }  
+
+  /*About page */
+
+  .maincontent2 {
+    
+    width: 95%;
+    height: 100%;
+  }
+  .maincontent2 h3 {
+    position: relative;
+    top:-90px;
+    left:30px;
+    text-decoration: underline ;
+    text-decoration-color:#FE8A49 ;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    margin-bottom: 0%;
+}
+.maincontent2 p {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    position: relative;
+    top: -60px;
+    left: 30px;
+}
+.img1 {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    position: relative;
+    top: -110px;
+    width: 250px;
+    transform: rotate(-20deg);
+}
+.img2 {
+   
+    float: right;
+    position: relative;
+    top: -70px;
+    width: 250px;
+    left: 280px;
+    transform: rotate(20deg);
+    border: balck solid 10px;
+}
+table {
+    width: 100%;
+    position: relative;
+    top: -130px;
+}
+td {
+    width: 20%;
+    
+}
+td:nth-child(2) {
+  
+    background-image: url(reebok_batcheditor_fotor.png);
+    background-repeat: no-repeat;
+}
+td:nth-child(3) {
+   
+    background-image: url(sony_batcheditor_fotor.png);
+    background-repeat: no-repeat;
+}
+td:nth-child(4) {
+   
+    background-image: url(nike.png);
+    background-repeat: no-repeat;
+}
+caption {
+    font-family:  Vina Sans; 
+    color: white;
+    padding-bottom: 40px;
+    font-size: 60px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.btn11 {
+    width: 80px;
+  height: 30px;
+  margin: 3px;
+  background-color: #FE8A49;
+  border-radius: 15px;
+  color: #F2EFDC;
+  position: relative;
+  top: -100px;
+}
+
+/*centers*/
+.center {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    width: 1000px;
+    position: relative;
+    left: 20px;
+}
+.center2 {
+    width: 90%;
+    height:  500px;
+    background-color: black;
+    border-radius:10px ;
+    opacity: 0.7;
+}
+label {
+    color: white;
+}
+.cards {
+    display: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card1 {
+    width: 250px;
+    height: 300px;
+    background-color: #F2EFDC;
+    border-radius: 10px;
+}
+.card1:hover {
+    width: 250px;
+    height: 300px;
+    background-color: rgb(157, 165, 173);
+    border-radius: 10px;
+}
+.card2 {
+    width: 250px;
+    height: 300px;
+    background-color: #F2EFDC;
+    border-radius: 10px;
+}
+.card2:hover {
+    width: 250px;
+    height: 300px;
+    background-color: rgb(157, 165, 173);
+    border-radius: 10px;
+}
+.card3 {
+    width: 250px;
+    height: 300px;
+    background-color: #F2EFDC;
+    border-radius: 10px;
+}
+.card3:hover {
+    width: 250px;
+    height: 300px;
+    background-color: rgb(157, 165, 173);
+    border-radius: 10px;
+}
+#imgg {
+    width: 250px;
+    height: 300px;
+}
+.info {
+    position:relative;
+    top: -150px;
+}
+.prs {
+    display: flex;
+    flex-direction: row;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+#ids {
+    position: relative;
+    top: -150px;
+    color: rgb(186, 183, 183);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+#desc {
+    position: relative;
+    top: -150px;
+    color: rgb(186, 183, 183);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+/*pricing page */
+.center3 {
+    width: 80%;
+    height:  450px;
+    background-color: black;
+    border-radius:10px ;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.basic {
+    position: relative;
+    top: 40px;
+    width: 250px;
+    height:  400px;
+    background-color: #F2EFDC;
+    border-radius: 10px;
+}
+.premium {
+    position: relative;
+    top: 40px;
+    width: 250px;
+    height:  400px;
+    background-color: #F2EFDC;
+    border-radius: 10px;
+}
+.advanced {
+    position: relative;
+    top: 40px;
+    width: 250px;
+    height:  400px;
+    background-color: #F2EFDC;
+    border-radius: 10px;
+}
+h5 {
+    font-family: Vina Sans;
+    color: white;
+    font-size: 40px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.advanced h3 {
+    font-family: Vina Sans;
+    color: white;
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.basic h3 {
+    font-family: Vina Sans;
+    color: white;
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.premium h3 {
+    font-family: Vina Sans;
+    color: white;
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.advanced p {
+    font-family: Vina Sans;
+    color: white;
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.basic p {
+    font-family: Vina Sans;
+    color: white;
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.premium p {
+    font-family: Vina Sans;
+    color: white;
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.pay {
+    background-color: #FE8A49;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.pay:hover {
+   
+        background-color:white;
+        color: #FE8A49;
+        border-radius: 4px;
+        border: #FE8A49 solid 1px;
+      }
